@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e1a2495c.chunk.css",
+    "main.js": "/portfolio/static/js/main.fbe99eba.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fbe99eba.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5fc81efb.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5fc81efb.js.map",
+    "static/js/2.bcc706e4.chunk.js": "/portfolio/static/js/2.bcc706e4.chunk.js",
+    "static/js/2.bcc706e4.chunk.js.map": "/portfolio/static/js/2.bcc706e4.chunk.js.map",
+    "static/css/3.df879eac.chunk.css": "/portfolio/static/css/3.df879eac.chunk.css",
+    "static/js/3.5037e296.chunk.js": "/portfolio/static/js/3.5037e296.chunk.js",
+    "static/js/3.5037e296.chunk.js.map": "/portfolio/static/js/3.5037e296.chunk.js.map",
+    "static/css/4.e91a4b36.chunk.css": "/portfolio/static/css/4.e91a4b36.chunk.css",
+    "static/js/4.aa2ec175.chunk.js": "/portfolio/static/js/4.aa2ec175.chunk.js",
+    "static/js/4.aa2ec175.chunk.js.map": "/portfolio/static/js/4.aa2ec175.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.68c60a91549e51d14471cfb81d9f4d62.js": "/portfolio/precache-manifest.68c60a91549e51d14471cfb81d9f4d62.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/3.df879eac.chunk.css.map": "/portfolio/static/css/3.df879eac.chunk.css.map",
+    "static/css/4.e91a4b36.chunk.css.map": "/portfolio/static/css/4.e91a4b36.chunk.css.map",
+    "static/css/main.e1a2495c.chunk.css.map": "/portfolio/static/css/main.e1a2495c.chunk.css.map",
+    "static/js/2.bcc706e4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bcc706e4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/apica.jpg": "/portfolio/static/media/apica.7841fd7c.jpg",
+    "static/media/aws.jpg": "/portfolio/static/media/aws.8167fbf1.jpg",
+    "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.51cf7192.svg",
+    "static/media/csulaLogo.png": "/portfolio/static/media/csulaLogo.58b21ca2.png",
+    "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.59389695.svg",
+    "static/media/exp.png": "/portfolio/static/media/exp.d141c53e.png",
+    "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/rhel.jpg": "/portfolio/static/media/rhel.9558695f.jpg",
+    "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/skill.svg": "/portfolio/static/media/skill.34409398.svg",
+    "static/media/TalkCard.scss": "/portfolio/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fc81efb.js",
+    "static/js/2.bcc706e4.chunk.js",
+    "static/css/main.e1a2495c.chunk.css",
+    "static/js/main.fbe99eba.chunk.js"
+  ]
+}
