@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Pat Wakeem",
-  title: "Hi all, I'm Pat!",
+  title: "Hey there, I'm Pat :)",
   subTitle: emoji(
-    "Hey all! I'm a Staff level Software Engineer. I specialize in backend, infrastructure, and the AWS platform. Non-technically I lead high profile projects to completion; and drive org wide change via mentorship and extensive knowledge transfer."
+    "Hey! I'm a Staff Software Engineer. I specialize in backend, infrastructure, and the AWS platform. Non-technically I lead high profile or high impact projects to completion; and drive org wide change via mentorship and extensive knowledge transfer."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1kOvKdpleZKAXYAm5apwuZx7smU70eUCW/view?usp=sharing", // Set to empty to hide the button
@@ -36,23 +36,21 @@ const socialMediaLinks = {
   github: "https://github.com/patwakeem",
   linkedin: "https://www.linkedin.com/in/patwakeem/",
   gmail: "patwakeem@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Highly skilled developer looking for excellent people to work with.",
   skills: [
     emoji(
       "⚡ Create highly resilient backend systems and products that your customers will love."
     ),
     emoji("⚡ Integrate with AWS services, deploying fast and building microservices quickly."),
     emoji(
-      "⚡ Lead projects to completion with a phased delivery."
+      "⚡ Lead projects to completion utilizing phased delivery for quick customer feedback."
     )
   ],
 
@@ -61,36 +59,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "automation",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
       skillName: "testing",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fas fa-microscope"
     },
     {
       skillName: "gitops",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "serverless",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "architecture",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "mongodb",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "nosql",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "sql",
@@ -99,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "spring",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -125,7 +111,6 @@ const educationInfo = {
       schoolName: "California State University: Los Angeles",
       logo: require("./assets/images/csulaLogo.png"),
       subHeader: "Bachelors: Psychology",
-      desc: "Fear not, for I have a bachelor's degree.",
     }
   ]
 };
@@ -165,10 +150,10 @@ const workExperiences = {
       company: "Tink, A Visa Solution",
       companylogo: require("./assets/images/tink.png"),
       date: "January 2022 – Present",
-      desc: "desc.",
+      desc: "Cutting tech debt and setting new standards.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Setting standards on how code is written and deployed.",
+        "Cutting tech debt and insisting on the best for packaging and deployment through gitops."
       ]
     },
     {
@@ -176,10 +161,10 @@ const workExperiences = {
       company: "Apica Systems",
       companylogo: require("./assets/images/apica.jpg"),
       date: "2020 – 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "R&D and Product Exploration in one role",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led a project exploration team, meeting with customers and delivering on deadlines.",
+        "Created many powerful and exploratory products/features."
       ]
     },
     {
@@ -187,14 +172,22 @@ const workExperiences = {
       company: "Apica Systems",
       companylogo: require("./assets/images/apica.jpg"),
       date: "2018 – 2020",
-      desc: ""
+      desc: "Total backend refresh utilizing Kafka, Java, and MongoDb",
+      descBullets: [
+        "Led a backend refresh doing away with an expensive legacy monolith.",
+        "Achieved a migration to microservices based design with events and streaming."
+      ]
     },
     {
       role: "Lead DevOps Engineer",
       company: "Apica Systems",
       companylogo: require("./assets/images/apica.jpg"),
       date: "2016 – 2018",
-      desc: ""
+      desc: "Migrating world wide infrastructure to AWS",
+      descBullets: [
+        "Migrated many on-premise datacenters to AWS.",
+        "Utilized terraform, packer, and general AWS services."
+      ]
     },
     {
       role: "More Experience",
@@ -243,7 +236,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
