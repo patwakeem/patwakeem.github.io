@@ -75,10 +75,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "mongodb",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "nosql",
       fontAwesomeClassname: "fas fa-database"
     },
